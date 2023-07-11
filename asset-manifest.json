@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/how-many-moons/static/css/main.7e0b1749.css",
+    "main.js": "/how-many-moons/static/js/main.3d7d4387.js",
+    "static/js/787.45f28028.chunk.js": "/how-many-moons/static/js/787.45f28028.chunk.js",
+    "index.html": "/how-many-moons/index.html",
+    "main.7e0b1749.css.map": "/how-many-moons/static/css/main.7e0b1749.css.map",
+    "main.3d7d4387.js.map": "/how-many-moons/static/js/main.3d7d4387.js.map",
+    "787.45f28028.chunk.js.map": "/how-many-moons/static/js/787.45f28028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e0b1749.css",
+    "static/js/main.3d7d4387.js"
+  ]
+}
