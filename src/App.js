@@ -42,22 +42,26 @@ const App = () => {
         <center><p>Earth only has 1 moon. But what about other planets? Not to worry, we got you covered. Select a planet in our solar system to find out how many moons they have!</p></center>
       </section>
       
-      
-      <label>Select a planet:</label>
-      <div class="custom-select">
-        <select id="planet" value={planet} onChange={handlePlanetChange}>
-          <option value="">Choose a planet</option>
-          <option value="Mercury">Mercury</option>
-          <option value="Venus">Venus</option>
-          <option value="Mars">Mars</option>
-          <option value="Jupiter">Jupiter</option>
-          <option value="Saturn">Saturn</option>
-          <option value="Uranus">Uranus</option>
-          <option value="Neptune">Neptune</option>
-        </select>
-      </div>
-      <button onClick={numOfMoons}>Find</button>
-      <p>There are {moons} moons!</p>
+      <section>
+        <center><label>Select a planet:</label></center>
+        <center>
+        <div class="custom-select">
+          <select id="planet" value={planet} onChange={handlePlanetChange}>
+            <option value="">Choose a planet</option>
+            <option value="Mercury">Mercury</option>
+            <option value="Venus">Venus</option>
+            <option value="Mars">Mars</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturn">Saturn</option>
+            <option value="Uranus">Uranus</option>
+            <option value="Neptune">Neptune</option>
+          </select>
+        </div>
+        </center>
+
+        <center><button onClick={numOfMoons}>Find</button></center>
+        <center><p>There are {moons} moons!</p></center>
+      </section>
     </div>
   );
 };
