@@ -34,15 +34,20 @@ const App = () => {
 
   return (
     <div className="App">
-      <section>
+      <section  id='title'>
         <center><h1>How Many Moons?</h1></center>
-      </section>
-      
-      <section>
         <center><p>Earth only has 1 moon. But what about other planets? Not to worry, we got you covered. Select a planet in our solar system to find out how many moons they have!</p></center>
+
+        <div id="dots" class = "centered">
+          <div id="d1" class="dot"> </div>
+          <div id="d2" class="dot"> </div>
+          <div id="d3" class="dot"> </div>
+      </div>
       </section>
+
+      <hr></hr>
       
-      <section>
+      <section id='selection'>
         <center><label>Select a planet:</label></center>
         <center>
         <div class="custom-select">
@@ -59,8 +64,8 @@ const App = () => {
         </div>
         </center>
 
-        <center><button onClick={numOfMoons}>Find</button></center>
-        <center><p>There are {moons} moons!</p></center>
+        <center><button id='btn' onClick={numOfMoons}>Find</button></center>
+        <center><p id='result'>There are {moons} moons!</p></center>
       </section>
     </div>
   );
