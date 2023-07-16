@@ -38,10 +38,10 @@ const App = () => {
         <center><h1>How Many Moons?</h1></center>
         <center><p>Earth only has 1 moon. But what about other planets? Not to worry, we got you covered. Select a planet in our solar system to find out how many moons they have!</p></center>
 
-        <div id="dots" class = "centered">
-          <div id="d1" class="dot"> </div>
-          <div id="d2" class="dot"> </div>
-          <div id="d3" class="dot"> </div>
+        <div id="dots" className="centered">
+          <div id="d1" className="dot"> </div>
+          <div id="d2" className="dot"> </div>
+          <div id="d3" className="dot"> </div>
       </div>
       </section>
 
@@ -50,7 +50,7 @@ const App = () => {
       <section id='selection'>
         <center><label>Select a planet:</label></center>
         <center>
-        <div class="custom-select">
+        <div className="custom-select">
           <select id="planet" value={planet} onChange={handlePlanetChange}>
             <option value="">Choose a planet</option>
             <option value="Mercury">Mercury</option>
